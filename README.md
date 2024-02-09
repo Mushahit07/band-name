@@ -1,2 +1,6 @@
 # band-name
-asking about city and pet name and from that it will name your band name
+#asking about city and pet name and from that it will name your band name
+print("Welcome to the Band Name Generator.")
+street = input("What's the name of the city you grew up in?\n")
+pet = input("What's your pet's name?\n")
+print("Your band name could be " + street + " " + pet)
